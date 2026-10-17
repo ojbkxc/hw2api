@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 前台服务通知小图标（storage 形态，单色白，状态栏着色用） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,2C6.48,2 2,4.69 2,8v8c0,3.31 4.48,6 10,6s10,-2.69 10,-6V8C22,4.69 17.52,2 12,2zM20,16c0,2.21 -3.58,4 -8,4s-8,-1.79 -8,-4v-2.08C5.94,15.23 8.79,16 12,16s6.06,-0.77 8,-2.08V16zM20,11.5c0,2.21 -3.58,4 -8,4s-8,-1.79 -8,-4V9.42C5.94,10.65 8.79,11.4 12,11.4s6.06,-0.75 8,-1.98V11.5z" />
+</vector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 占位主题：纯 Compose 应用，实际视觉由 MaterialTheme 控制（任务 #3 完善） -->
+    <style name="Theme.Hw2Api" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

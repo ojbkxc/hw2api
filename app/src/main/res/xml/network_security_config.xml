@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 网络安全配置（plan.md §5.4 / R4）：
+     全局禁止明文流量，App 自身作为客户端发出的所有请求一律 HTTPS；
+     仅对本地回环 127.0.0.1 / localhost 豁免明文（局域网客户端访问本机 8788
+     API server 的明文 HTTP 属于外部行为，不受 App 客户端策略约束）。 -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">localhost</domain>
+    </domain-config>
+</network-security-config>

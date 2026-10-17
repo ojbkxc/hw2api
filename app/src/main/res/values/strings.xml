@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HW API</string>
+    <!-- 前台服务通知 -->
+    <string name="notification_channel_name">HW API 服务</string>
+    <string name="notification_channel_desc">本地 OpenAI 兼容 API 服务运行状态</string>
+    <string name="notification_title">HW API 服务运行中</string>
+</resources>

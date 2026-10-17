@@ -1,0 +1,23 @@
+# ── Gradle 构建产物 ──
+.gradle/
+build/
+
+# ── Android Studio / IntelliJ ──
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ── 签名材料（防止正式签名文件误提交）──
+*.jks
+*.keystore
+
+# ── 系统与日志杂项 ──
+.DS_Store
+Thumbs.db
+*.log
+
+# ── CodeArts 智能体工作区（计划 / 评审等内部材料，仅保留本地）──
+.codeartsdoer/
